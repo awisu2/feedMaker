@@ -18,7 +18,7 @@ foreach($loads as $load)
 	$feed = getRss2String($content, $load);
 
 	// save
-	fsave($dir . "/feeds/feed_" . sprintf("%05d", $i) . ".xml", $feed);
+	fsave($dir . "/feeds/feed_" . sprintf("%05d", $i) . ".xml", $feed, "w");
 
 	$i++;
 }
