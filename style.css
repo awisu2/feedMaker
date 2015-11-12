@@ -1,0 +1,29 @@
+#baseurl {
+	width: 400px;
+}
+
+#button_step1 {
+	margin-bottom: 10px;
+}
+
+#basehtml {
+	width: 800px;
+	height: 300px;
+}
+
+#content_pattern, #pattern_list, #rss_sample {
+	width: 800px;
+	height: 200px;
+}
+
+.feed_title {
+	display : inline-block;
+	width : 150px;
+}
+
+.feed_text {
+	width : 300px;
+}
+
+
+
